@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gastronomia",
+    "nombre": "Gastronomía",
+    "icono": "🍔",
+    "color": "#FE8616",
+    "orden": 1
+  },
+  {
+    "id": "entretenimiento",
+    "nombre": "Entretenimiento",
+    "icono": "🎭",
+    "color": "#7B46F8",
+    "orden": 2
+  },
+  {
+    "id": "cultura",
+    "nombre": "Cultura",
+    "icono": "🏛️",
+    "color": "#A609F0",
+    "orden": 3
+  },
+  {
+    "id": "naturaleza",
+    "nombre": "Naturaleza",
+    "icono": "🌿",
+    "color": "#DFF800",
+    "orden": 4
+  },
+  {
+    "id": "vida_nocturna",
+    "nombre": "Vida nocturna",
+    "icono": "🍸",
+    "color": "#FA05B8",
+    "orden": 5
+  },
+  {
+    "id": "aire_libre",
+    "nombre": "Planes al aire libre",
+    "icono": "🌳",
+    "color": "#0D0127",
+    "orden": 6
+  },
+  {
+    "id": "compras",
+    "nombre": "Compras",
+    "icono": "🛍️",
+    "color": "#FE8616",
+    "orden": 7
+  },
+  {
+    "id": "eventos",
+    "nombre": "Eventos",
+    "icono": "🎪",
+    "color": "#7B46F8",
+    "orden": 8
+  }
+]

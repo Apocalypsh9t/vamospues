@@ -1,0 +1,21 @@
+# Librerías y compilados (se regeneran solos al arrancar)
+node_modules/
+target/
+dist/
+
+# Base de datos local de cada computador
+data/
+*.mv.db
+*.lock.db
+
+# Herramientas del editor y archivos del sistema
+.github/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secretos locales
+.env
+.env.local

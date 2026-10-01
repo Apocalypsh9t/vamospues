@@ -1,0 +1,32 @@
+============================================================
+   VAMOS PUES - COMO ABRIR LA PAGINA EN ESTE COMPUTADOR
+============================================================
+
+1) INSTALAR (solo la primera vez)
+   - Java 21 o superior:  https://adoptium.net/   (descargar "Temurin 21 LTS")
+   - Node.js (version LTS): https://nodejs.org/
+   Instalar ambos con las opciones por defecto y REINICIAR el computador.
+
+2) ABRIR LA PAGINA
+   - Doble clic en:  iniciar_vamos_pues.bat
+   - La primera vez necesita INTERNET y tarda unos minutos (descarga librerias).
+   - Se abren dos ventanas negras: NO cerrarlas mientras se use la pagina.
+   - Si Windows pregunta por "Node.js" o "Java", marcar "Redes privadas" y Permitir.
+   - El navegador se abre solo en  http://localhost:5173
+     (si sale vacia al principio, esperar: carga sola cuando el servidor termina de arrancar)
+
+3) QUE OTRAS PERSONAS ENTREN (celular o PC)
+   - Deben estar conectadas al MISMO WiFi que este computador.
+   - La ventana del .bat muestra la direccion para compartir, por ejemplo:
+         http://192.168.1.25:5173/
+   - Si no les carga: en Windows, Configuracion > Red, poner el WiFi como "Red privada".
+
+4) PANEL DE ADMINISTRACION
+   - Boton del candado (arriba a la derecha o en el pie de pagina).
+   - Clave:  vamospues2026
+
+5) DATOS
+   - Todo se guarda en:  vamos-pues-backend\data\vamospues.mv.db
+   - Para hacer una copia: Panel admin > Copia de Seguridad > Descargar JSON.
+   - Para detener la pagina: cerrar las dos ventanas negras.
+============================================================
