@@ -72,7 +72,7 @@ export default function TabRespaldo({ manejarError, alImportar }) {
   };
 
   const restablecer = async () => {
-    if (!confirm('⚠️ ¿Estás seguro de restablecer toda la base de datos a los 129 lugares originales verificados de Vamos Pues? Se borrarán modificaciones locales.')) return;
+    if (!confirm('⚠️ ¿Estás seguro de restablecer toda la base de datos a los 175 lugares originales verificados de Vamos Pues? Se borrarán modificaciones locales.')) return;
     try {
       await api.post('/admin/restablecer');
       alert('Base de datos restablecida a los valores oficiales.');
@@ -107,7 +107,7 @@ export default function TabRespaldo({ manejarError, alImportar }) {
 
         <div className="filters-panel" style={{ flex: 1, minWidth: '280px' }}>
           <h4>⚠️ Restablecer Valores Oficiales</h4>
-          <p className="text-muted text-xs mt-1 mb-3">Restaura la plataforma a los 129 lugares originales verificados de Vamos Pues.</p>
+          <p className="text-muted text-xs mt-1 mb-3">Restaura la plataforma a los 175 lugares originales verificados de Vamos Pues.</p>
           <button className="btn btn-accent btn-sm" onClick={restablecer}>
             RESTAURAR A DATOS OFICIALES
           </button>

@@ -15,7 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/** Pruebas de la lógica principal sobre los 129 lugares oficiales (base de datos en memoria). */
+/** Pruebas de la lógica principal sobre los 175 lugares oficiales (base de datos en memoria). */
 @SpringBootTest(properties = "spring.datasource.url=jdbc:h2:mem:logica;DB_CLOSE_DELAY=-1")
 class LogicaVamosPuesTests {
 

@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Carga de los datos oficiales (129 lugares y 8 categorías), exportación/importación
+ * Carga de los datos oficiales (175 lugares y 8 categorías), exportación/importación
  * de la base de datos completa en JSON y restablecimiento a los valores oficiales.
  */
 @Service

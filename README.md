@@ -22,7 +22,7 @@ VAMOSPUES/
 | `dto`        | Objetos de entrada/salida con validaciones |
 | `security`   | Configuración de seguridad, filtro y servicio JWT |
 | `exception`  | Manejo global de errores (`{ codigoEstado, mensaje, marcaDeTiempo }`) |
-| `config`     | Carga inicial de los 129 lugares y 8 categorías (`resources/datos/*.json`) |
+| `config`     | Carga inicial de los 175 lugares y 8 categorías (`resources/datos/*.json`) |
 
 La base de datos es **H2 embebida** (archivo `vamos-pues-backend/data/vamospues.mv.db`): no hay que instalar nada. Se crea y se llena sola la primera vez que arranca el backend.
 
